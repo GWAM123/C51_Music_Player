@@ -1,4 +1,6 @@
 # C51_Music_Player
+Beep connects to the P2.5, the key1
+
 The musical notes are referenced from C4 (262 Hz).
 
 The note sequences for the songs are implemented in Song.cpp.
