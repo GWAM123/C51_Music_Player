@@ -1,0 +1,588 @@
+LX51 LINKER/LOCATER V4.66.93.0                                                          05/25/2026  17:41:15  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.93.0, INVOKED BY:
+D:\MICROSOFT VISUAL STUDIO\KEIL5_36_MDK\C51\BIN\LX51.EXE .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O, .\BUILD\DEBUG\.OBJ\DATA\NOTE.
+>> O, .\BUILD\DEBUG\.OBJ\DATA\SONG.O, .\BUILD\DEBUG\.OBJ\MAIN.O, .\BUILD\DEBUG\.OBJ\PUBLIC\PUBLIC.O TO .\BUILD\DEBUG\MUS
+>> IC_PLAYER PRINT (.\build\Debug\Music_Player.map) REMOVEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: LARGE WITH FLOATING POINT ARITHMETIC
+
+
+INPUT MODULES INCLUDED:
+  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+         COMMENT TYPE 0: C51 V9.59.0.0
+  .\BUILD\DEBUG\.OBJ\DATA\NOTE.O (NOTE)
+         COMMENT TYPE 0: C51 V9.59.0.0
+  .\BUILD\DEBUG\.OBJ\DATA\SONG.O (SONG)
+         COMMENT TYPE 0: C51 V9.59.0.0
+  .\BUILD\DEBUG\.OBJ\MAIN.O (MAIN)
+         COMMENT TYPE 0: C51 V9.59.0.0
+  .\BUILD\DEBUG\.OBJ\PUBLIC\PUBLIC.O (PUBLIC)
+         COMMENT TYPE 0: C51 V9.59.0.0
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51FPL.LIB (?C?FPMUL)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51FPL.LIB (?C?FCAST)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51FPL.LIB (?C?CASTF)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51FPL.LIB (?C?FPGETOPN)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51L.LIB (?C_STARTUP)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51L.LIB (?C?CLDOPTR)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51L.LIB (?C?LNEG)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51L.LIB (?C?LLDCODE)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51L.LIB (?C?LSTXDATA)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  D:\MICROSOFT VISUAL STUDIO\KEIL_V5\C51\LIB\C51L.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  .\BUILD\DEBUG\MUSIC_PLAYER (KEY)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   000C2BH   CODE
+X:000000H   X:000000H   X:00FFFFH   000016H   XDATA
+C:000000H   C:000000H   C:00FFFFH   000D4FH   CONST
+I:000000H   I:000000H   I:00007FH   00000AH   DATA
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  .\BUILD\DEBUG\MUSIC_PLAYER (KEY)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   000009H   000002H   BYTE   UNIT     DATA           ?DT?PUBLIC
+00000AH   00000AH   000001H   BYTE   UNIT     IDATA          ?STACK
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 2
+
+
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO??C_STARTUP?0
+000003H   000009H   000007H   BYTE   UNIT     CODE           ?PR?EXTI1_INIT?PUBLIC
+00000AH   00000AH   000001H   ---    ---      **GAP**
+00000BH   00000DH   000003H   BYTE   OFFS..   CODE           ?MAIN?0000B
+00000EH   000012H   000005H   ---    ---      **GAP**
+000013H   000015H   000003H   BYTE   OFFS..   CODE           ?MAIN?00013
+000016H   0003A9H   000394H   BYTE   UNIT     CODE           ?PR?IF_I_CAN_STOP_ONE_HEART_FROM_BREAKING?SONG
+0003AAH   0005CAH   000221H   BYTE   UNIT     CODE           ?PR?ALWAYS_WITH_ME?SONG
+0005CBH   0007E6H   00021CH   BYTE   UNIT     CODE           ?C?LIB_CODE
+0007E7H   000950H   00016AH   BYTE   UNIT     CODE           ?PR?_MUSIC_PLAY?SONG
+000951H   0009DCH   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+0009DDH   000A37H   00005BH   BYTE   UNIT     CODE           ?PR?EXTI1?MAIN
+000A38H   000A8DH   000056H   BYTE   UNIT     CODE           ?PR?_KEY_SCAN?KEY
+000A8EH   000ADAH   00004DH   BYTE   UNIT     CODE           ?PR?_FRE_TH_SELECTION?SONG
+000ADBH   000B23H   000049H   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
+000B24H   000B67H   000044H   BYTE   UNIT     CODE           ?PR?_FRE_TL_SELECTION?SONG
+000B68H   000BA5H   00003EH   BYTE   UNIT     CODE           ?PR?SONG_OF_THE_IRISH_WHISTLE?SONG
+000BA6H   000BC2H   00001DH   BYTE   UNIT     CODE           ?C_INITSEG
+000BC3H   000BDBH   000019H   BYTE   UNIT     CODE           ?PR?TIME0?MAIN
+000BDCH   000BEBH   000010H   BYTE   UNIT     CODE           ?PR?_DELAY_MS?PUBLIC
+000BECH   000BFBH   000010H   BYTE   UNIT     CODE           ?PR?_DELAY_S?PUBLIC
+000BFCH   000C0AH   00000FH   BYTE   UNIT     CODE           ?PR?TIME0_INIT?PUBLIC
+000C0BH   000C18H   00000EH   BYTE   UNIT     CODE           ?PR?DELAY_1MS?PUBLIC
+000C19H   000C25H   00000DH   BYTE   UNIT     CODE           ?PR?DELAY50MS?PUBLIC
+000C26H   000C30H   00000BH   BYTE   UNIT     CODE           ?PR?_DELAY_10US?PUBLIC
+000C31H   001913H   000CE3H   BYTE   UNIT     CONST          ?CO?SONG
+001914H   00197FH   00006CH   BYTE   UNIT     CONST          ?CO?NOTE
+
+* * * * * * * * * * *  X D A T A   M E M O R Y  * * * * * * * * * * * * *
+000000H   00000EH   00000FH   BYTE   UNIT     XDATA          _XDATA_GROUP_
+00000FH   000012H   000004H   BYTE   UNIT     XDATA          ?XD?MAIN
+000013H   000014H   000002H   BYTE   UNIT     XDATA          ?XD?SONG
+000015H   000015H   000001H   BYTE   UNIT     XDATA          ?XD?KEY
+
+* * * * * * * * *   R E M O V E D     S E G M E N T S   * * * * * * * *
+   *DEL*:           000007H   BYTE   UNIT     CODE           ?PR?EXTI0_INIT?PUBLIC
+
+
+
+OVERLAY MAP OF MODULE:   .\BUILD\DEBUG\MUSIC_PLAYER (KEY)
+
+
+FUNCTION/MODULE                               XDATA_GROUP
+--> CALLED FUNCTION/MODULE                    START  STOP
+=========================================================
+TIME0/MAIN                                    ----- -----
+
+*** NEW ROOT ********************************
+
+EXTI1/MAIN                                    ----- -----
+  +--> _DELAY_10US/PUBLIC
+
+_DELAY_10US/PUBLIC                            ----- -----
+
+*** NEW ROOT ********************************
+
+?C_C51STARTUP                                 ----- -----
+  +--> MAIN/MAIN
+  +--> ?C_INITSEG
+
+MAIN/MAIN                                     ----- -----
+  +--> EXTI1_INIT/PUBLIC
+  +--> TIME0_INIT/PUBLIC
+  +--> _KEY_SCAN/KEY
+  +--> SONG_OF_THE_IRISH_WHISTLE/SONG
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 3
+
+
+  +--> ALWAYS_WITH_ME/SONG
+  +--> IF_I_CAN_STOP_ONE_HEART_FROM_BREAKING/SONG
+
+EXTI1_INIT/PUBLIC                             ----- -----
+
+TIME0_INIT/PUBLIC                             ----- -----
+
+_KEY_SCAN/KEY                                 ----- -----
+  +--> _DELAY_10US/PUBLIC
+
+SONG_OF_THE_IRISH_WHISTLE/SONG                ----- -----
+  +--> _MUSIC_PLAY/SONG
+
+_MUSIC_PLAY/SONG                              0000H 000EH
+  +--> _FRE_TH_SELECTION/SONG
+  +--> _FRE_TL_SELECTION/SONG
+  +--> _DELAY_S/PUBLIC
+  +--> _DELAY_MS/PUBLIC
+
+_FRE_TH_SELECTION/SONG                        ----- -----
+
+_FRE_TL_SELECTION/SONG                        ----- -----
+
+_DELAY_S/PUBLIC                               ----- -----
+  +--> DELAY50MS/PUBLIC
+
+DELAY50MS/PUBLIC                              ----- -----
+
+_DELAY_MS/PUBLIC                              ----- -----
+  +--> DELAY_1MS/PUBLIC
+
+DELAY_1MS/PUBLIC                              ----- -----
+
+ALWAYS_WITH_ME/SONG                           ----- -----
+  +--> _MUSIC_PLAY/SONG
+  +--> _DELAY_S/PUBLIC
+
+IF_I_CAN_STOP_ONE_HEART_FROM_BREAKING/SO+     ----- -----
+... NG
+  +--> _MUSIC_PLAY/SONG
+  +--> _DELAY_S/PUBLIC
+
+?C_INITSEG                                    ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  .\BUILD\DEBUG\MUSIC_PLAYER (KEY)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      02000000H   XDATA    BYTE      ?_music_play?BYTE
+      0100070FH   CODE     ---       ?C?CASTF
+      01000790H   CODE     ---       ?C?CLDOPTR
+      00000000H   NUMBER   ---       ?C?CODESEG
+      010006DBH   CODE     ---       ?C?FCASTC
+      010006D6H   CODE     ---       ?C?FCASTI
+      010006D1H   CODE     ---       ?C?FCASTL
+      01000746H   CODE     ---       ?C?FPGETOPN2
+      010005CBH   CODE     ---       ?C?FPMUL
+      0100077BH   CODE     ---       ?C?FPNANRESULT
+      01000785H   CODE     ---       ?C?FPOVERFLOW
+      0100075DH   CODE     ---       ?C?FPRESULT
+      01000771H   CODE     ---       ?C?FPRESULT2
+      01000782H   CODE     ---       ?C?FPUNDERFLOW
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 4
+
+
+      010007CBH   CODE     ---       ?C?LLDCODE
+      010007BDH   CODE     ---       ?C?LNEG
+      010007DBH   CODE     ---       ?C?LSTXDATA
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      01000998H   CODE     ---       ?C_START
+      01000000H   CODE     ---       ?C_STARTUP
+      01000C26H   CODE     ---       _delay_10us
+      01000BDCH   CODE     ---       _delay_ms
+      01000BECH   CODE     ---       _delay_s
+      01000A8EH   CODE     ---       _Fre_TH_selection
+      01000B24H   CODE     ---       _Fre_TL_selection
+      01000A38H   CODE     ---       _key_scan
+      01000823H   CODE     ---       _music_play
+      010003AAH   CODE     ---       Always_With_Me
+      01000DCCH   CONST    ---       Always_With_Me_Note_values_1
+      01000EA0H   CONST    ---       Always_With_Me_Note_values_2
+      01000F68H   CONST    ---       Always_With_Me_Note_values_3
+      01001029H   CONST    ---       Always_With_Me_Note_values_4
+      010010EAH   CONST    ---       Always_With_Me_Note_values_5
+      010011A5H   CONST    ---       Always_With_Me_Note_values_6
+      01001276H   CONST    ---       Always_With_Me_Note_values_7
+      01001351H   CONST    ---       Always_With_Me_Note_values_8
+      01000D86H   CONST    ---       Always_With_Me_Notes_1
+      01000E5DH   CONST    ---       Always_With_Me_Notes_2
+      01000F2AH   CONST    ---       Always_With_Me_Notes_3
+      01000FE8H   CONST    ---       Always_With_Me_Notes_4
+      010010AFH   CONST    ---       Always_With_Me_Notes_5
+      01001164H   CONST    ---       Always_With_Me_Notes_6
+      0100122BH   CONST    ---       Always_With_Me_Notes_7
+      01001310H   CONST    ---       Always_With_Me_Notes_8
+      01000E12H   CONST    ---       Always_With_Me_Rest_values_1
+      01000EE3H   CONST    ---       Always_With_Me_Rest_values_2
+      01000FA6H   CONST    ---       Always_With_Me_Rest_values_3
+      0100106AH   CONST    ---       Always_With_Me_Rest_values_4
+      01001125H   CONST    ---       Always_With_Me_Rest_values_5
+      010011E6H   CONST    ---       Always_With_Me_Rest_values_6
+      010012C1H   CONST    ---       Always_With_Me_Rest_values_7
+      01001392H   CONST    ---       Always_With_Me_Rest_values_8
+      01000E59H   CONST    FLOAT     Always_With_Me_Time_1
+      01000F26H   CONST    FLOAT     Always_With_Me_Time_2
+      01000FE4H   CONST    FLOAT     Always_With_Me_Time_3
+      010010ABH   CONST    FLOAT     Always_With_Me_Time_4
+      01001160H   CONST    FLOAT     Always_With_Me_Time_5
+      01001227H   CONST    FLOAT     Always_With_Me_Time_6
+      0100130CH   CONST    FLOAT     Always_With_Me_Time_7
+      010013D3H   CONST    FLOAT     Always_With_Me_Time_8
+      01000E58H   CONST    BYTE      Always_With_Me_Tone
+      01000C19H   CODE     ---       Delay50ms
+      01000C0BH   CODE     ---       Delay_1ms
+*DEL*:00000000H   CODE     ---       exti0_init
+      010009DDH   CODE     ---       exti1
+      01000003H   CODE     ---       exti1_init
+      00000008H   DATA     BYTE      i
+      01000016H   CODE     ---       If_I_can_stop_one_heart_from_breaking
+      0100140EH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_1
+      01001864H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_10
+      010018EAH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_11
+      0100190EH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_12
+      01001491H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_2
+      010014BCH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_3
+      010014DAH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_4
+      01001505H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_5
+      0100155BH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_6
+      010015B7H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_7
+      010016EBH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_8
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 5
+
+
+      0100177EH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_9
+      010013D7H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_1
+      0100182AH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_10
+      010018DAH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_11
+      0100190CH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_12
+      01001482H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_2
+      010014B1H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_3
+      010014D4H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_4
+      010014E8H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_5
+      01001541H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_6
+      01001591H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_7
+      01001605H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_8
+      01001729H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_9
+      01001445H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_1
+      0100189EH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_10
+      010018FAH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_11
+      01001910H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_12
+      010014A0H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_2
+      010014C7H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_3
+      010014E0H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_4
+      01001522H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_5
+      01001575H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_6
+      010015DDH   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_7
+      01001709H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_8
+      010017D3H   CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_9
+      0100147EH   CONST    FLOAT     If_I_can_stop_one_heart_from_breaking_Time
+      0100147CH   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_1
+      010018D8H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_10
+      0100190AH   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_11
+      01001912H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_12
+      010014AFH   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_2
+      010014D2H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_3
+      010014E6H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_4
+      0100153FH   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_5
+      0100158FH   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_6
+      01001603H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_7
+      01001727H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_8
+      01001828H   CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_9
+      00000009H   DATA     BYTE      j
+      02000010H   XDATA    BYTE      key_time
+      01000ADBH   CODE     ---       main
+      01001974H   CONST    ---       Note_values
+      0100192CH   CONST    ---       NoteC_H_TH
+      0100195CH   CONST    ---       NoteC_H_TL
+      01001938H   CONST    ---       NoteC_HH_TH
+      01001968H   CONST    ---       NoteC_HH_TL
+      01001914H   CONST    ---       NoteC_L_TH
+      01001944H   CONST    ---       NoteC_L_TL
+      01001920H   CONST    ---       NoteC_M_TH
+      01001950H   CONST    ---       NoteC_M_TL
+      0200000FH   XDATA    BYTE      play_switch
+      0100197CH   CONST    ---       Rest_values
+      01000B68H   CODE     ---       Song_of_the_Irish_Whistle
+      01000CA1H   CONST    ---       Song_of_the_Irish_Whistle_Note_values
+      01000C31H   CONST    ---       Song_of_the_Irish_Whistle_Notes
+      01000D11H   CONST    ---       Song_of_the_Irish_Whistle_Rest_values
+      01000D82H   CONST    FLOAT     Song_of_the_Irish_Whistle_Time
+      01000D81H   CONST    BYTE      Song_of_the_Irish_Whistle_Tone
+      02000011H   XDATA    BYTE      TH0_val
+      01000BC3H   CODE     ---       time0
+      01000BFCH   CODE     ---       time0_init
+      02000012H   XDATA    BYTE      TL0_val
+
+
+
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 6
+
+
+SYMBOL TABLE OF MODULE:  .\BUILD\DEBUG\MUSIC_PLAYER (KEY)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       KEY
+      01000A38H   PUBLIC    CODE     ---       _key_scan
+
+      01000A38H   BLOCK     CODE     ---       LVL=0
+      01000A38H   BLOCK     CODE     NEAR LAB  LVL=1
+      02000015H   SYMBOL    XDATA    VOID      key
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       NOTE
+      0100197CH   PUBLIC    CONST    ---       Rest_values
+      01001974H   PUBLIC    CONST    ---       Note_values
+      01001968H   PUBLIC    CONST    ---       NoteC_HH_TL
+      0100195CH   PUBLIC    CONST    ---       NoteC_H_TL
+      01001950H   PUBLIC    CONST    ---       NoteC_M_TL
+      01001944H   PUBLIC    CONST    ---       NoteC_L_TL
+      01001938H   PUBLIC    CONST    ---       NoteC_HH_TH
+      0100192CH   PUBLIC    CONST    ---       NoteC_H_TH
+      01001920H   PUBLIC    CONST    ---       NoteC_M_TH
+      01001914H   PUBLIC    CONST    ---       NoteC_L_TH
+
+      ---         MODULE    ---      ---       SONG
+      01001912H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_12
+      01001910H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_12
+      0100190EH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_12
+      0100190CH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_12
+      0100190AH   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_11
+      010018FAH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_11
+      010018EAH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_11
+      010018DAH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_11
+      010018D8H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_10
+      0100189EH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_10
+      01001864H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_10
+      0100182AH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_10
+      01001828H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_9
+      010017D3H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_9
+      0100177EH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_9
+      01001729H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_9
+      01001727H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_8
+      01001709H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_8
+      010016EBH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_8
+      01001605H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_8
+      01001603H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_7
+      010015DDH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_7
+      010015B7H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_7
+      01001591H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_7
+      0100158FH   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_6
+      01001575H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_6
+      0100155BH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_6
+      01001541H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_6
+      0100153FH   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_5
+      01001522H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_5
+      01001505H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_5
+      010014E8H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_5
+      010014E6H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_4
+      010014E0H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_4
+      010014DAH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_4
+      010014D4H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_4
+      010014D2H   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_3
+      010014C7H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_3
+      010014BCH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_3
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 7
+
+
+      010014B1H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_3
+      010014AFH   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_2
+      010014A0H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_2
+      01001491H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_2
+      01001482H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_2
+      0100147EH   PUBLIC    CONST    FLOAT     If_I_can_stop_one_heart_from_breaking_Time
+      0100147CH   PUBLIC    CONST    INT       If_I_can_stop_one_heart_from_breaking_Tone_1
+      01001445H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Rest_values_1
+      0100140EH   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Note_values_1
+      010013D7H   PUBLIC    CONST    ---       If_I_can_stop_one_heart_from_breaking_Notes_1
+      010013D3H   PUBLIC    CONST    FLOAT     Always_With_Me_Time_8
+      01001392H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_8
+      01001351H   PUBLIC    CONST    ---       Always_With_Me_Note_values_8
+      01001310H   PUBLIC    CONST    ---       Always_With_Me_Notes_8
+      0100130CH   PUBLIC    CONST    FLOAT     Always_With_Me_Time_7
+      010012C1H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_7
+      01001276H   PUBLIC    CONST    ---       Always_With_Me_Note_values_7
+      0100122BH   PUBLIC    CONST    ---       Always_With_Me_Notes_7
+      01001227H   PUBLIC    CONST    FLOAT     Always_With_Me_Time_6
+      010011E6H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_6
+      010011A5H   PUBLIC    CONST    ---       Always_With_Me_Note_values_6
+      01001164H   PUBLIC    CONST    ---       Always_With_Me_Notes_6
+      01001160H   PUBLIC    CONST    FLOAT     Always_With_Me_Time_5
+      01001125H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_5
+      010010EAH   PUBLIC    CONST    ---       Always_With_Me_Note_values_5
+      010010AFH   PUBLIC    CONST    ---       Always_With_Me_Notes_5
+      010010ABH   PUBLIC    CONST    FLOAT     Always_With_Me_Time_4
+      0100106AH   PUBLIC    CONST    ---       Always_With_Me_Rest_values_4
+      01001029H   PUBLIC    CONST    ---       Always_With_Me_Note_values_4
+      01000FE8H   PUBLIC    CONST    ---       Always_With_Me_Notes_4
+      01000FE4H   PUBLIC    CONST    FLOAT     Always_With_Me_Time_3
+      01000FA6H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_3
+      01000F68H   PUBLIC    CONST    ---       Always_With_Me_Note_values_3
+      01000F2AH   PUBLIC    CONST    ---       Always_With_Me_Notes_3
+      01000F26H   PUBLIC    CONST    FLOAT     Always_With_Me_Time_2
+      01000EE3H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_2
+      01000EA0H   PUBLIC    CONST    ---       Always_With_Me_Note_values_2
+      01000E5DH   PUBLIC    CONST    ---       Always_With_Me_Notes_2
+      01000E59H   PUBLIC    CONST    FLOAT     Always_With_Me_Time_1
+      01000E58H   PUBLIC    CONST    BYTE      Always_With_Me_Tone
+      01000E12H   PUBLIC    CONST    ---       Always_With_Me_Rest_values_1
+      01000DCCH   PUBLIC    CONST    ---       Always_With_Me_Note_values_1
+      01000D86H   PUBLIC    CONST    ---       Always_With_Me_Notes_1
+      01000D82H   PUBLIC    CONST    FLOAT     Song_of_the_Irish_Whistle_Time
+      01000D81H   PUBLIC    CONST    BYTE      Song_of_the_Irish_Whistle_Tone
+      01000D11H   PUBLIC    CONST    ---       Song_of_the_Irish_Whistle_Rest_values
+      01000CA1H   PUBLIC    CONST    ---       Song_of_the_Irish_Whistle_Note_values
+      01000C31H   PUBLIC    CONST    ---       Song_of_the_Irish_Whistle_Notes
+      01000016H   PUBLIC    CODE     ---       If_I_can_stop_one_heart_from_breaking
+      010003AAH   PUBLIC    CODE     ---       Always_With_Me
+      01000B68H   PUBLIC    CODE     ---       Song_of_the_Irish_Whistle
+      02000000H   PUBLIC    XDATA    BYTE      ?_music_play?BYTE
+      01000823H   PUBLIC    CODE     ---       _music_play
+      01000B24H   PUBLIC    CODE     ---       _Fre_TL_selection
+      01000A8EH   PUBLIC    CODE     ---       _Fre_TH_selection
+
+      01000A8EH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000B24H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010007E7H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 8
+
+
+      01000823H   BLOCK     CODE     ---       LVL=0
+      0100082EH   BLOCK     CODE     NEAR LAB  LVL=1
+      02000013H   SYMBOL    XDATA    VOID      Note_i
+      02000014H   SYMBOL    XDATA    VOID      Continue_check
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000B68H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010003AAH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000016H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       MAIN
+      02000012H   PUBLIC    XDATA    BYTE      TL0_val
+      02000011H   PUBLIC    XDATA    BYTE      TH0_val
+      02000010H   PUBLIC    XDATA    BYTE      key_time
+      0200000FH   PUBLIC    XDATA    BYTE      play_switch
+      010009DDH   PUBLIC    CODE     ---       exti1
+      01000BC3H   PUBLIC    CODE     ---       time0
+      01000ADBH   PUBLIC    CODE     ---       main
+
+      01000ADBH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000BC3H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      010009DDH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       PUBLIC
+      00000009H   PUBLIC    DATA     BYTE      j
+      00000008H   PUBLIC    DATA     BYTE      i
+      01000BFCH   PUBLIC    CODE     ---       time0_init
+      01000003H   PUBLIC    CODE     ---       exti1_init
+      01000BECH   PUBLIC    CODE     ---       _delay_s
+      01000C19H   PUBLIC    CODE     ---       Delay50ms
+      01000BDCH   PUBLIC    CODE     ---       _delay_ms
+      01000C0BH   PUBLIC    CODE     ---       Delay_1ms
+      01000C26H   PUBLIC    CODE     ---       _delay_10us
+
+      01000C26H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000C0BH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000BDCH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000C19H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000BECH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000003H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000BFCH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+LX51 LINKER/LOCATER V4.66.93.0                                                        05/25/2026  17:41:15  PAGE 9
+
+
+
+      ---         MODULE    ---      ---       ?C?FPMUL
+      010005CBH   PUBLIC    CODE     ---       ?C?FPMUL
+
+      ---         MODULE    ---      ---       ?C?FCAST
+      010006DBH   PUBLIC    CODE     ---       ?C?FCASTC
+      010006D6H   PUBLIC    CODE     ---       ?C?FCASTI
+      010006D1H   PUBLIC    CODE     ---       ?C?FCASTL
+
+      ---         MODULE    ---      ---       ?C?CASTF
+      0100070FH   PUBLIC    CODE     ---       ?C?CASTF
+
+      ---         MODULE    ---      ---       ?C?FPGETOPN
+      01000746H   PUBLIC    CODE     ---       ?C?FPGETOPN2
+      0100077BH   PUBLIC    CODE     ---       ?C?FPNANRESULT
+      01000785H   PUBLIC    CODE     ---       ?C?FPOVERFLOW
+      0100075DH   PUBLIC    CODE     ---       ?C?FPRESULT
+      01000771H   PUBLIC    CODE     ---       ?C?FPRESULT2
+      01000782H   PUBLIC    CODE     ---       ?C?FPUNDERFLOW
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+      01000000H   PUBLIC    CODE     ---       ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C?CLDOPTR
+      01000790H   PUBLIC    CODE     ---       ?C?CLDOPTR
+
+      ---         MODULE    ---      ---       ?C?LNEG
+      010007BDH   PUBLIC    CODE     ---       ?C?LNEG
+
+      ---         MODULE    ---      ---       ?C?LLDCODE
+      010007CBH   PUBLIC    CODE     ---       ?C?LLDCODE
+
+      ---         MODULE    ---      ---       ?C?LSTXDATA
+      010007DBH   PUBLIC    CODE     ---       ?C?LSTXDATA
+
+      ---         MODULE    ---      ---       ?C_INIT
+      01000998H   PUBLIC    CODE     ---       ?C_START
+
+Program Size: data=11.0 xdata=22 const=3407 code=3115
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

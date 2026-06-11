@@ -1,0 +1,2 @@
+.\build\Debug\.obj\APP\Key\Key.o,.\build\Debug\.obj\Data\Note.o,.\build\Debug\.obj\Data\Song.o,.\build\Debug\.obj\Main.o,.\build\Debug\.obj\Public\Public.o TO .\build\Debug\Music_Player
+PRINT(.\build\Debug\Music_Player.map) REMOVEUNUSED

@@ -1,0 +1,704 @@
+[2026-04-30 10:44:51]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 257 OF .\Data\Song.cpp: 'play_switch': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:45:31]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 257 OF .\Data\Song.cpp: 'play_switch': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:45:39]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 257 OF .\Data\Song.cpp: 'play_switch': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:46:13]	compilation failed at : "e:\Test\C51\Music_Player\Main.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Main.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Main.lst) OBJECT(.\build\Debug\.obj\Main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 11 OF .\Main.cpp: 'play_switch': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:46:21]	compilation failed at : "e:\Test\C51\Music_Player\Main.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Main.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Main.lst) OBJECT(.\build\Debug\.obj\Main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 11 OF .\Main.cpp: 'play_switch': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:46:46]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.93.0 - SN: K1DZC-ET9SUC
+COPYRIGHT ARM Germany GmbH 1995 - 2018
+@e:\Test\C51\Music_Player\build\Debug\Music_Player.lnp .\build\Debug\.obj\APP\Key\Key.o,.\build\Debug\.obj\Data\Note.o,.\build\Debug\.obj\Data\Song.o,.\build\Debug\.obj\Main.o,.\build\Debug\.obj\Public\Public.o TO .\build\Debug\Music_Player
+PRINT(.\build\Debug\Music_Player.map) REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\DATA\NOTE.O (NOTE)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\DATA\SONG.O (SONG)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\MAIN.O (MAIN)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\PUBLIC\PUBLIC.O (PUBLIC)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+Program Size: data=11.0 xdata=24 const=1614 code=1627
+LX51 RUN COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+
+[2026-04-30 10:47:07]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.93.0 - SN: K1DZC-ET9SUC
+COPYRIGHT ARM Germany GmbH 1995 - 2018
+@e:\Test\C51\Music_Player\build\Debug\Music_Player.lnp .\build\Debug\.obj\APP\Key\Key.o,.\build\Debug\.obj\Data\Note.o,.\build\Debug\.obj\Data\Song.o,.\build\Debug\.obj\Main.o,.\build\Debug\.obj\Public\Public.o TO .\build\Debug\Music_Player
+PRINT(.\build\Debug\Music_Player.map) REMOVEUNUSED
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\DATA\NOTE.O (NOTE)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\DATA\SONG.O (SONG)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\MAIN.O (MAIN)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\PUBLIC\PUBLIC.O (PUBLIC)
+   DEFINED:  .\BUILD\DEBUG\.OBJ\APP\KEY\KEY.O (KEY)
+
+Program Size: data=11.0 xdata=24 const=1614 code=1627
+LX51 RUN COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+
+[2026-04-30 10:47:21]	link failed !, exit code: 2
+   at unify_builder.Program.Main(String[] args_)
+---
+
+LX51 LINKER/LOCATER V4.66.93.0 - SN: K1DZC-ET9SUC
+COPYRIGHT ARM Germany GmbH 1995 - 2018
+@e:\Test\C51\Music_Player\build\Debug\Music_Player.lnp .\build\Debug\.obj\APP\Key\Key.o,.\build\Debug\.obj\Data\Note.o,.\build\Debug\.obj\Data\Song.o,.\build\Debug\.obj\Main.o,.\build\Debug\.obj\Public\Public.o TO .\build\Debug\Music_Player
+PRINT(.\build\Debug\Music_Player.map) REMOVEUNUSED
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\DATA\SONG.O (SONG)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\DATA\SONG.O (SONG)
+    ADDRESS: 1000253H
+
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\MAIN.O (MAIN)
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\MAIN.O (MAIN)
+    ADDRESS: 100056EH
+
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  play_switch
+    MODULE:  .\BUILD\DEBUG\.OBJ\MAIN.O (MAIN)
+    ADDRESS: 10004D0H
+
+Program Size: data=11.0 xdata=19 const=1614 code=1609
+LX51 RUN COMPLETE.  0 WARNING(S),  5 ERROR(S)
+
+
+[2026-04-30 10:47:39]	[done]
+	build successfully !
+
+[2026-04-30 10:48:24]	[done]
+	build successfully !
+
+[2026-04-30 10:48:30]	[done]
+	build successfully !
+
+[2026-04-30 10:48:40]	[done]
+	build successfully !
+
+[2026-04-30 10:52:16]	[done]
+	build successfully !
+
+[2026-04-30 10:53:23]	[done]
+	build successfully !
+
+[2026-04-30 10:56:24]	compilation failed at : "e:\Test\C51\Music_Player\Main.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Main.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Main.lst) OBJECT(.\build\Debug\.obj\Main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C280 IN LINE 19 OF .\Main.cpp: 'Loop': unreferenced label
+*** ERROR C233 IN LINE 47 OF .\Main.cpp: 'Loop': undefined label
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:57:46]	compilation failed at : "e:\Test\C51\Music_Player\Main.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Main.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Main.lst) OBJECT(.\build\Debug\.obj\Main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C280 IN LINE 19 OF .\Main.cpp: 'loop': unreferenced label
+*** ERROR C233 IN LINE 47 OF .\Main.cpp: 'loop': undefined label
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:58:08]	compilation failed at : "e:\Test\C51\Music_Player\Main.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Main.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Main.lst) OBJECT(.\build\Debug\.obj\Main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C280 IN LINE 19 OF .\Main.cpp: 'node1': unreferenced label
+*** ERROR C233 IN LINE 47 OF .\Main.cpp: 'node1': undefined label
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 10:58:46]	[done]
+	build successfully !
+
+[2026-04-30 10:59:19]	[done]
+	build successfully !
+
+[2026-04-30 11:00:26]	[done]
+	build successfully !
+
+[2026-04-30 11:02:49]	compilation failed at : "e:\Test\C51\Music_Player\Main.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Main.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Main.lst) OBJECT(.\build\Debug\.obj\Main.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 55 OF .\Main.cpp: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 11:02:52]	[done]
+	build successfully !
+
+[2026-04-30 11:03:01]	[done]
+	build successfully !
+
+[2026-04-30 11:42:48]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** WARNING C206 IN LINE 324 OF .\Data\Song.cpp: 'delay_S': missing function-prototype
+*** ERROR C267 IN LINE 324 OF .\Data\Song.cpp: 'delay_S': requires ANSI-style prototype
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
+
+[2026-04-30 11:43:00]	[done]
+	build successfully !
+
+[2026-04-30 11:44:31]	[done]
+	build successfully !
+
+[2026-04-30 11:47:01]	[done]
+	build successfully !
+
+[2026-04-30 11:48:59]	[done]
+	build successfully !
+
+[2026-04-30 11:52:57]	[done]
+	build successfully !
+
+[2026-04-30 11:54:28]	[done]
+	build successfully !
+
+[2026-04-30 11:57:08]	[done]
+	build successfully !
+
+[2026-04-30 12:03:31]	[done]
+	build successfully !
+
+[2026-04-30 12:03:51]	[done]
+	build successfully !
+
+[2026-04-30 12:05:55]	[done]
+	build successfully !
+
+[2026-04-30 12:09:07]	[done]
+	build successfully !
+
+[2026-05-01 11:31:14]	[done]
+	build successfully !
+
+[2026-05-01 11:39:14]	[done]
+	build successfully !
+
+[2026-05-01 11:40:05]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 337 OF .\Data\Song.cpp: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 11:40:12]	[done]
+	build successfully !
+
+[2026-05-01 11:40:25]	[done]
+	build successfully !
+
+[2026-05-01 11:42:24]	[done]
+	build successfully !
+
+[2026-05-01 11:43:39]	[done]
+	build successfully !
+
+[2026-05-01 11:48:03]	[done]
+	build successfully !
+
+[2026-05-01 11:50:09]	[done]
+	build successfully !
+
+[2026-05-01 13:17:20]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 283 OF .\Data\Song.cpp: syntax error near '6', expected '}'
+*** ERROR C279 IN LINE 295 OF .\Data\Song.cpp: 'Always_With_Me_Time_1': multiple initialization
+*** ERROR C202 IN LINE 321 OF .\Data\Song.cpp: 'NoteC_HH_TH': undefined identifier
+*** ERROR C202 IN LINE 343 OF .\Data\Song.cpp: 'NoteC_HH_TL': undefined identifier
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+*** ERROR C141 IN LINE 408 OF .\Data\Song.cpp: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2026-05-01 13:17:25]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 283 OF .\Data\Song.cpp: syntax error near '6', expected '}'
+*** ERROR C279 IN LINE 295 OF .\Data\Song.cpp: 'Always_With_Me_Time_1': multiple initialization
+*** ERROR C202 IN LINE 321 OF .\Data\Song.cpp: 'NoteC_HH_TH': undefined identifier
+*** ERROR C202 IN LINE 343 OF .\Data\Song.cpp: 'NoteC_HH_TL': undefined identifier
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  5 ERROR(S)
+
+[2026-05-01 13:17:57]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 295 OF .\Data\Song.cpp: 'Always_With_Me_Time_1': multiple initialization
+*** ERROR C202 IN LINE 321 OF .\Data\Song.cpp: 'NoteC_HH_TH': undefined identifier
+*** ERROR C202 IN LINE 343 OF .\Data\Song.cpp: 'NoteC_HH_TL': undefined identifier
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2026-05-01 13:18:16]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 321 OF .\Data\Song.cpp: 'NoteC_HH_TH': undefined identifier
+*** ERROR C202 IN LINE 343 OF .\Data\Song.cpp: 'NoteC_HH_TL': undefined identifier
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  3 ERROR(S)
+
+[2026-05-01 13:19:01]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 13:19:49]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 13:20:04]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 13:21:26]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 407 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 13:22:08]	[done]
+	build successfully !
+
+[2026-05-01 13:24:15]	[done]
+	build successfully !
+
+[2026-05-01 13:26:23]	[done]
+	build successfully !
+
+[2026-05-01 13:30:08]	[done]
+	build successfully !
+
+[2026-05-01 14:16:29]	[done]
+	build successfully !
+
+[2026-05-01 14:17:05]	[done]
+	build successfully !
+
+[2026-05-01 14:17:44]	[done]
+	build successfully !
+
+[2026-05-01 14:18:41]	[done]
+	build successfully !
+
+[2026-05-01 16:49:14]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 276 OF .\Data\Song.cpp: syntax error near '.', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 16:49:28]	[done]
+	build successfully !
+
+[2026-05-01 16:57:57]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C202 IN LINE 418 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_1': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 16:59:55]	[done]
+	build successfully !
+
+[2026-05-01 17:00:51]	[done]
+	build successfully !
+
+[2026-05-01 17:02:47]	[done]
+	build successfully !
+
+[2026-05-01 17:03:57]	[done]
+	build successfully !
+
+[2026-05-01 17:05:21]	[done]
+	build successfully !
+
+[2026-05-01 17:10:17]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 310 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes_2': multiple initialization
+*** ERROR C231 IN LINE 310 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes_2': redefinition
+*** ERROR C279 IN LINE 312 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_2': multiple initialization
+*** ERROR C231 IN LINE 312 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_2': redefinition
+*** ERROR C279 IN LINE 314 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Rest_values_2': multiple initialization
+*** ERROR C279 IN LINE 316 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_2': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  6 ERROR(S)
+
+[2026-05-01 17:10:22]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 310 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes_2': multiple initialization
+*** ERROR C231 IN LINE 310 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Notes_2': redefinition
+*** ERROR C279 IN LINE 312 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_2': multiple initialization
+*** ERROR C231 IN LINE 312 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_2': redefinition
+*** ERROR C279 IN LINE 314 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Rest_values_2': multiple initialization
+*** ERROR C231 IN LINE 314 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Rest_values_2': redefinition
+*** ERROR C279 IN LINE 316 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_2': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-05-01 17:10:33]	[done]
+	build successfully !
+
+[2026-05-01 17:11:14]	[done]
+	build successfully !
+
+[2026-05-01 17:12:14]	[done]
+	build successfully !
+
+[2026-05-01 17:15:19]	[done]
+	build successfully !
+
+[2026-05-01 17:16:17]	[done]
+	build successfully !
+
+[2026-05-01 17:18:06]	[done]
+	build successfully !
+
+[2026-05-01 17:21:17]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 333 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_4': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 17:21:29]	[done]
+	build successfully !
+
+[2026-05-01 17:22:19]	[done]
+	build successfully !
+
+[2026-05-01 17:23:01]	[done]
+	build successfully !
+
+[2026-05-01 17:24:11]	[done]
+	build successfully !
+
+[2026-05-01 17:41:32]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 340 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_5': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 17:41:47]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 326 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_4': multiple initialization
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 17:41:58]	[done]
+	build successfully !
+
+[2026-05-01 17:55:09]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 351 OF .\Data\Song.cpp: syntax error near '0', expected '}'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 17:55:20]	[done]
+	build successfully !
+
+[2026-05-01 18:08:05]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 359 OF .\Data\Song.cpp: syntax error near '.', expected 'sizeof'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+[2026-05-01 18:08:42]	[done]
+	build successfully !
+
+[2026-05-01 18:12:02]	[done]
+	build successfully !
+
+[2026-05-01 18:12:30]	[done]
+	build successfully !
+
+[2026-05-01 18:13:35]	[done]
+	build successfully !
+
+[2026-05-01 18:14:25]	[done]
+	build successfully !
+
+[2026-05-01 18:15:37]	[done]
+	build successfully !
+
+[2026-05-01 18:16:40]	[done]
+	build successfully !
+
+[2026-05-01 18:17:04]	[done]
+	build successfully !
+
+[2026-05-01 18:18:30]	[done]
+	build successfully !
+
+[2026-05-02 16:23:10]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C141 IN LINE 544 OF .\Data\Song.cpp: syntax error near 'music_play', expected ';'
+*** ERROR C141 IN LINE 546 OF .\Data\Song.cpp: syntax error near 'music_play', expected ';'
+*** ERROR C141 IN LINE 548 OF .\Data\Song.cpp: syntax error near 'music_play', expected ';'
+*** ERROR C141 IN LINE 552 OF .\Data\Song.cpp: syntax error near '}', expected ';'
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)
+
+[2026-05-02 16:24:16]	[done]
+	build successfully !
+
+[2026-05-02 16:24:22]	[done]
+	build successfully !
+
+[2026-05-02 16:46:14]	compilation failed at : "e:\Test\C51\Music_Player\Data\Song.cpp", exit code: 2
+command: 
+  "D:\Microsoft Visual Studio\Keil_v5\C51\BIN\C51.exe" .\Data\Song.cpp OMF2 TABS(4) CODE NOCOND SYMBOLS INCDIR(Public;APP/Key;Data;D:/Microsoft Visual Studio/Keil_v5/C51/INC) DEFINE(__UVISION_VERSION='526') OPTIMIZE(8,SPEED) LARGE ROM(LARGE) PRINT(.\build\Debug\.obj\Data\Song.lst) OBJECT(.\build\Debug\.obj\Data\Song.o)
+   at unify_builder.Program.Main(String[] args_)
+---
+C51 COMPILER V9.59.0.0 - SN: K1DZC-ET9SUC
+COPYRIGHT Copyright (C) 2012 - 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+*** ERROR C279 IN LINE 441 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_6': multiple initialization
+*** ERROR C279 IN LINE 458 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_10': multiple initialization
+*** ERROR C231 IN LINE 458 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_10': redefinition
+*** ERROR C279 IN LINE 460 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Rest_values_10': multiple initialization
+*** ERROR C231 IN LINE 460 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Rest_values_10': redefinition
+*** ERROR C202 IN LINE 598 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Tone_10': undefined identifier
+*** ERROR C202 IN LINE 600 OF .\Data\Song.cpp: 'If_I_can_stop_one_heart_from_breaking_Note_values_12': undefined identifier
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  7 ERROR(S)
+
+[2026-05-02 16:46:47]	[done]
+	build successfully !
+
+[2026-05-02 16:49:57]	[done]
+	build successfully !
+
+[2026-05-02 16:51:31]	[done]
+	build successfully !
+
+[2026-05-02 16:51:54]	[done]
+	build successfully !
+
+[2026-05-02 16:53:33]	[done]
+	build successfully !
+
+[2026-05-02 16:56:31]	[done]
+	build successfully !
+
+[2026-05-02 17:25:24]	[done]
+	build successfully !
+
+[2026-05-02 17:26:57]	[done]
+	build successfully !
+
+[2026-05-02 17:27:39]	[done]
+	build successfully !
+
+[2026-05-02 17:41:31]	[done]
+	build successfully !
+
+[2026-05-25 17:41:15]	[done]
+	build successfully !
+

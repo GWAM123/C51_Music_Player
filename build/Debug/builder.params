@@ -1,0 +1,77 @@
+{
+    "name": "Music_Player",
+    "target": "Debug",
+    "toolchain": "Keil_C51",
+    "toolchainLocation": "D:\\Microsoft Visual Studio\\Keil5_36_MDK\\C51",
+    "toolchainCfgFile": "c:\\Users\\Administrator\\.vscode\\extensions\\cl.eide-3.26.9\\res\\data\\models/8051.keil.model.json",
+    "buildMode": "normal|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 14,
+    "rootDir": "e:\\Test\\C51\\Music_Player",
+    "dumpPath": "build\\Debug",
+    "outDir": "build\\Debug",
+    "incDirs": [
+        "Public",
+        "APP/Key",
+        "Data",
+        "D:/Microsoft Visual Studio/Keil5_36_MDK/C51/INC"
+    ],
+    "libDirs": [],
+    "defines": [
+        "__UVISION_VERSION=526"
+    ],
+    "sourceList": [
+        "APP/Key/Key.cpp",
+        "Data/Note.cpp",
+        "Data/Song.cpp",
+        "Main.cpp",
+        "Public/Public.cpp"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 2,
+        "afterBuildTasks": [],
+        "asm-compiler": {},
+        "beforeBuildTasks": [],
+        "c/cpp-compiler": {
+            "optimization-level": "level-8",
+            "optimization-type": "SPEED",
+            "optimization": "8,SPEED"
+        },
+        "global": {
+            "ram-mode": "LARGE",
+            "rom-mode": "LARGE"
+        },
+        "linker": {
+            "output-format": "elf",
+            "remove-unused": true,
+            "use-RTX": "None"
+        }
+    },
+    "env": {
+        "workspaceFolder": "e:\\Test\\C51\\Music_Player",
+        "workspaceFolderBasename": "Music_Player",
+        "OutDir": "e:\\Test\\C51\\Music_Player\\build\\Debug",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Debug",
+        "ProjectName": "Music_Player",
+        "ConfigName": "Debug",
+        "ProjectRoot": "e:\\Test\\C51\\Music_Player",
+        "ExecutableName": "e:\\Test\\C51\\Music_Player\\build\\Debug\\Music_Player",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\Administrator\\.vscode\\extensions\\cl.eide-3.26.9\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\Administrator\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\Administrator\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "D:\\Microsoft Visual Studio\\Keil5_36_MDK\\C51"
+    },
+    "sysPaths": []
+}

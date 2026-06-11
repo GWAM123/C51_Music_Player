@@ -1,0 +1,14 @@
+>>> cc
+
+
+
+>>> ld
+
+
+LX51 LINKER/LOCATER V4.66.93.0 - SN: K1DZC-RUJCUC
+COPYRIGHT ARM Germany GmbH 1995 - 2018
+@e:\Test\C51\Music_Player\build\Debug\Music_Player.lnp .\build\Debug\.obj\APP\Key\Key.o,.\build\Debug\.obj\Data\Note.o,.\build\Debug\.obj\Data\Song.o,.\build\Debug\.obj\Main.o,.\build\Debug\.obj\Public\Public.o TO .\build\Debug\Music_Player
+PRINT(.\build\Debug\Music_Player.map) REMOVEUNUSED
+
+Program Size: data=11.0 xdata=22 const=3407 code=3115
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

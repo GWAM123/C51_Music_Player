@@ -1,0 +1,6 @@
+tool: KEIL_C51
+fileName: 'Music_Player.map'
+elfName: 'Music_Player'
+compilerName: 'C51 COMPILER'
+compilerFullName: 'C51 COMPILER V9.59.0.0 - SN: K1DZC-RUJCUC'
+compilerPath: 'D:\Microsoft Visual Studio\Keil5_36_MDK\C51\BIN\C51.exe'
